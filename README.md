@@ -104,7 +104,7 @@ Sua jornada é importante para nós! Este repositório é um espaço para aprimo
 Abra uma `Issue` ou entre em contato através dos canais da DAO para contribuir.
 
 ---
-
+ 
 ## 📜 Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [`LICENSE`](LICENSE) para mais detalhes.
