@@ -113,8 +113,8 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [`LICENSE`](LIC
 
 ## 🌐 Comunidades e Links Úteis
 
-*   **NeuroArt DAO**: [Link para o repositório da sua DAO](https://github.com/seu-usuario/dao-projeto)
-*   **Perfil GitHub do Autor**: [github.com/seu-usuario](https://github.com/seu-usuario)
-*   **LinkedIn do Autor**: [linkedin.com/in/seu-usuario](https://linkedin.com/in/seu-usuario)
+*   **NeuroArt DAO**: [Link para o repositório da sua DAO](https://github.com/taleshack-prog/NeuroArte-DAO)
+*   **Perfil GitHub do Autor**: [github.com/seu-usuario](https://github.com/taleshack-prog)
+*   **LinkedIn do Autor**: [linkedin.com/in/seu-usuario](https://www.linkedin.com/in/tales-hack-57417740/)
 
 ---
