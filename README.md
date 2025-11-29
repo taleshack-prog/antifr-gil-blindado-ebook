@@ -69,7 +69,7 @@ Veja a pasta `/recursos` para:
 
 Este projeto está integrado com uma **DAO de suporte comunitário**:
 
-- 🔗 **Repositório da DAO**: [github.com/seu-usuario/dao-projeto](https://github.com/seu-usuario/dao-projeto)
+- 🔗 **Repositório da DAO**: [github.com/seu-usuario/dao-projeto] https://github.com/taleshack-prog/NeuroArte-DAO
 - 💡 **Ideia**: Uma comunidade descentralizada de neurodiversos compartilhando estratégias antifrágil
 
 A DAO funciona como rede de proteção mútua para os leitores.
