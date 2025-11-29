@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Antifrágil Blindado - Guia prático para neurodivergentes através de natureterapias, artes plásticas e jiu-jitsu.">
+    <meta name="keywords" content="neurodiversidade, antifrágil, natureterapia, arteterapia, jiu-jitsu, TDAH, autismo">
+    <meta name="author" content="Tales Hack">
+    <title>ANTIFRÁGIL BLINDADO - Ebook para Neurodivergentes</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            color: #ffd700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #e0e0e0;
+        }
+        
+        .tagline {
+            font-size: 1.1em;
+            color: #b0b0b0;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff6b35, #f7931e);
+            color: white;
+            padding: 18px 50px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+            border: none;
+            cursor: pointer;
+        }
+        
+        .cta-button:hover {
+            background: linear-gradient(135deg, #f7931e, #ff6b35);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255, 107, 53, 0.6);
+        }
+        
+        main {
+            background: white;
+            padding: 60px 40px;
+            margin: 40px 0;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+        .intro {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .intro p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.8;
+        }
+        
+        .pillars {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+        
+        .pillar {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .pillar:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .pillar-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+        
+        .pillar h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        
+        .pillar p {
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+        
+        .sumario {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 40px 0;
+        }
+        
+        .sumario h3 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        
+        .sumario ul {
+            list-style: none;
+            columns: 2;
+            gap: 30px;
+        }
+        
+        .sumario li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .sumario li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #ff6b35;
+            font-weight: bold;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        
+        .feature {
+            background: white;
+            border-left: 4px solid #ff6b35;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .feature-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .feature h4 {
+            color: #333;
+            margin-bottom: 8px;
+        }
+        
+        .feature p {
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .about {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+            margin: 40px 0;
+            text-align: center;
+        }
+        
+        .about h3 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+        
+        .about p {
+            font-size: 1.05em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        
+        .links {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .link-button {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 25px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid white;
+        }
+        
+        .link-button:hover {
+            background: transparent;
+            color: white;
+            border-color: white;
+        }
+        
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+        }
+        
+        footer p {
+            margin-bottom: 10px;
+        }
+        
+        .highlight {
+            color: #ff6b35;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.2em;
+            }
+            
+            main {
+                padding: 30px 20px;
+                margin: 20px 0;
+            }
+            
+            .sumario ul {
+                columns: 1;
+            }
+            
+            .pillars {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <h1>📚 ANTIFRÁGIL BLINDADO</h1>
+            <h2>Blindagem Antifrágil para Neurodivergentes</h2>
+            <p class="tagline">Natureterapias • Artes Plásticas • Jiu-Jitsu • Comunidade</p>
+            <a href="https://pay.kiwify.com.br/oDVsXQZ" class="cta-button">🔗 ADQUIRIR EBOOK - R$ 50,00</a>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <div class="container">
+            
+            <!-- INTRODUÇÃO -->
+            <section class="intro">
+                <p>
+                    Um guia <span class="highlight">prático e transformador</span> para neurodivergentes que desejam construir uma vida antifrágil através de três pilares essenciais: natureza, criatividade e movimento.
+                </p>
+                <p style="margin-top: 15px;">
+                    Se você tem TDAH, Autismo, Dislexia ou outra forma de neurodiversidade, este ebook oferece estratégias reais e testadas para blindar sua saúde mental, emocional e física.
+                </p>
+            </section>
+
+            <!-- OS 3 PILARES -->
+            <section>
+                <h3 style="text-align: center; font-size: 2em; margin-bottom: 30px; color: #667eea;">
+                    Os 3 Pilares da Antifrágil
+                </h3>
+                <div class="pillars">
+                    <div class="pillar">
+                        <div class="pillar-icon">🌿</div>
+                        <h3>Natureterapias</h3>
+                        <p>Plantas adaptogênicas, ritmos circadianos e biohacking natural para reequilibrar seu sistema nervoso.</p>
+                    </div>
+                    <div class="pillar">
+                        <div class="pillar-icon">🎨</div>
+                        <h3>Artes Plásticas</h3>
+                        <p>Criatividade como ferramenta terapêutica para processar emoções e expressar sua verdadeira essência.</p>
+                    </div>
+                    <div class="pillar">
+                        <div class="pillar-icon">🥋</div>
+                        <h3>Jiu-Jitsu</h3>
+                        <p>Desenvolvimento de resiliência, confiança e defesa através da arte marcial mais inclusiva.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- O QUE VOCÊ VAI RECEBER -->
+            <section>
+                <h3 style="text-align: center; font-size: 1.8em; margin: 40px 0 30px; color: #333;">
+                    O Que Você Vai Receber
+                </h3>
+                <div class="features">
+                    <div class="feature">
+                        <div class="feature-icon">📖</div>
+                        <h4>47 Páginas</h4>
+                        <p>Conteúdo denso, estruturado e prático</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">📋</div>
+                        <h4>Exercícios Práticos</h4>
+                        <p>Rotinas, técnicas e planos de ação</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🔐</div>
+                        <h4>DRM Social</h4>
+                        <p>Protegido com marca d'água personalizada</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">📊</div>
+                        <h4>Tabelas & Guides</h4>
+                        <p>Referências visuais e checklists</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🌐</div>
+                        <h4>Comunidade DAO</h4>
+                        <p>Acesso à rede de neurodivergentes</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">✨</div>
+                        <h4>Atualizações Futuras</h4>
+                        <p>Novas versões sem custo adicional</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SUMÁRIO -->
+            <section class="sumario">
+                <h3>📚 Sumário Completo</h3>
+                <ul>
+                    <li><strong>Cap 1:</strong> O Que É Ser Neurodivergente</li>
+                    <li><strong>Cap 2:</strong> Conceito de Antifrágil</li>
+                    <li><strong>Cap 3:</strong> Os Três Pilares</li>
+                    <li><strong>Cap 4:</strong> Fitoenergética para Equilíbrio</li>
+                    <li><strong>Cap 5:</strong> Plantas Adaptogênicas</li>
+                    <li><strong>Cap 6:</strong> Ritmos Circadianos</li>
+                    <li><strong>Cap 7:</strong> Criatividade Como Terapia</li>
+                    <li><strong>Cap 8:</strong> Técnicas de Expressão</li>
+                    <li><strong>Cap 9:</strong> Projetos de Arteterapia</li>
+                    <li><strong>Cap 10:</strong> Jiu-Jitsu para Neurodiversos</li>
+                    <li><strong>Cap 11:</strong> Técnicas de Autodefesa</li>
+                    <li><strong>Cap 12:</strong> Mindfulness Através do Combate</li>
+                    <li><strong>Cap 13:</strong> Construindo Redes de Suporte</li>
+                    <li><strong>Cap 14:</strong> DAOs Para Proteção Familiar</li>
+                    <li><strong>Cap 15:</strong> Guia de Implementação</li>
+                </ul>
+            </section>
+
+            <!-- SOBRE -->
+            <section class="about">
+                <h3>👤 Sobre o Autor</h3>
+                <p>
+                    <strong>Tales Hack</strong> é um ortodontista aposentado que reinventou sua carreira como artista plástico, 
+                    especialista em blockchain e DAOs, e praticante apaixonado de jiu-jitsu e natureterapias.
+                </p>
+                <p>
+                    Criou este ebook a partir de sua própria jornada de transformação pessoal e do desejo de compartilhar 
+                    estratégias de resiliência com outros neurodivergentes.
+                </p>
+                <div class="links">
+                    <a href="https://github.com/seu-usuario" class="link-button">🐙 GitHub</a>
+                    <a href="https://linkedin.com/in/seu-usuario" class="link-button">💼 LinkedIn</a>
+                    <a href="mailto:seu-email@exemplo.com" class="link-button">✉️ Contato</a>
+                </div>
+            </section>
+
+            <!-- CTA FINAL -->
+            <section style="text-align: center; margin: 50px 0;">
+                <h3 style="color: #333; margin-bottom: 20px; font-size: 1.8em;">
+                    Pronto Para Se Tornar Antifrágil?
+                </h3>
+                <a href="https://pay.kiwify.com.br/oDVsXQZ" class="cta-button" style="font-size: 1.3em; padding: 20px 60px;">
+                    🔥 ADQUIRIR AGORA - R$ 50,00
+                </a>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Tales Hack | ANTIFRÁGIL BLINDADO</p>
+            <p>Ebook Disponível na <a href="https://kiwify.com.br" style="color: #ff6b35; text-decoration: none;">Kiwify</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
