@@ -14,7 +14,7 @@
 
 ## 🎯 O Que É o "ANTIFRÁGIL BLINDADO"?
 
-Este ebook de **127 páginas** é um guia revolucionário para famílias neurodivergentes, oferecendo um caminho para transformar vulnerabilidades em forças inabaláveis. Baseado no conceito de "Antifrágil" de Nassim Taleb, ele propõe uma blindagem robusta através de uma abordagem multidisciplinar e não-medicamentosa.
+Este ebook de **147 páginas** é um guia revolucionário para famílias neurodivergentes, oferecendo um caminho para transformar vulnerabilidades em forças inabaláveis. Baseado no conceito de "Antifrágil" de Nassim Taleb, ele propõe uma blindagem robusta através de uma abordagem multidisciplinar e não-medicamentosa.
 
 Exploramos como a neurodiversidade pode ser uma superpotência, e não uma limitação, utilizando quatro pilares fundamentais de proteção:
 
@@ -23,7 +23,7 @@ Exploramos como a neurodiversidade pode ser uma superpotência, e não uma limit
 3.  🌿 **Natureza, Água e Animais**: Conexão com o ambiente, terapias naturais e zooterapia.
 4.  🌳 **Bonsai e Orquídeas**: Paciência produtiva, foco e contemplação.
 
-O ebook também introduz a **NeuroArt DAO**, uma comunidade descentralizada de apoio mútuo, onde a neurodiversidade é celebrada e a antifragilidade é construída coletivamente.
+O ebook também introduz a **NeuroArt DAO**, uma comunidade descentralizada (em construção) de apoio mútuo, onde a neurodiversidade é celebrada e a antifragilidade é construída coletivamente.
 
 ---
 
@@ -63,7 +63,7 @@ O "ANTIFRÁGIL BLINDADO" está estruturado para guiar você através de uma jorn
 
 ## ✨ Características Exclusivas do Ebook
 
-*   **127 Páginas** de conteúdo denso e transformador.
+*   **147 Páginas** de conteúdo denso e transformador.
 *   **Conteúdo Prático com Exercícios**: Aplicação imediata das estratégias.
 *   **Baseado em Neurociência**: Fundamentação científica para cada abordagem.
 *   **Abordagem Não-Medicamentosa**: Foco em terapias complementares e naturais.
@@ -89,7 +89,7 @@ O "ANTIFRÁGIL BLINDADO" está estruturado para guiar você através de uma jorn
 
 ## 👤 Sobre o Autor
 
-**Tales Hack** é um visionário multidisciplinar, ortodontista aposentado, artista plástico, bonsaista e escultor. Com uma paixão pela resiliência e pelo desenvolvimento humano, Tales é também um praticante dedicado de Jiu-Jitsu e um especialista em blockchain, sendo o criador da **NeuroArt DAO**. Sua jornada pessoal e profissional o levou a desenvolver este guia, combinando sabedoria ancestral com inovações tecnológicas para empoderar famílias neurodivergentes.
+**Tales Hack** é um visionário multidisciplinar, ortodontista aposentado, artista plástico, bonsaista e escultor. Com uma paixão pela resiliência e pelo desenvolvimento humano, Tales é também um praticante "relapso" de Jiu-Jitsu e um estudante de blockchain, sendo o criador da **NeuroArt DAO**. Sua jornada pessoal e profissional o levou a desenvolver este guia, combinando sabedoria ancestral com inovações tecnológicas para empoderar famílias neurodivergentes.
 
 ---
 
